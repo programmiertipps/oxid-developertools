@@ -11,7 +11,7 @@
 
 <form name="updateViews" id="updateViews" class="pt_developertool_form" action="[{$oViewConf->getSelfLink()}]" method="post">
     [{$oViewConf->getHiddenSid()}]
-    <input type="hidden" name="cl" value="pt_UpdateView">
+    <input type="hidden" name="cl" value="ptdevelopertoolsupdateview">
     <input type="hidden" name="fnc" value="pt_rebuildViews">
     <input class="pt-submit" type="Submit" value="[{oxmultilang ident="pt_UPDATEVIEW_BUTTON"}]">
 </form>

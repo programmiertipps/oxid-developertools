@@ -14,7 +14,7 @@
 
     <form name="clearExeptionlog" id="clearExeptionlog" class="pt_developertool_form" action="[{$oViewConf->getSelfLink()}]" method="post">
         [{$oViewConf->getHiddenSid()}]
-        <input type="hidden" name="cl" value="pt_LogViewer">
+        <input type="hidden" name="cl" value="ptdevelopertoolslogviewer">
         <input type="hidden" name="fnc" value="pt_clearExeptionlog">
         <input class="pt-submit" type="Submit" value="[{oxmultilang ident="pt_LOGVIEWER_CLEARFILE"}]">
     </form>

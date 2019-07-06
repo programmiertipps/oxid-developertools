@@ -21,7 +21,7 @@
 
 <form name="clearTmpDir" id="clearTmpDir" class="pt_developertool_form" action="[{$oViewConf->getSelfLink()}]" method="post">
     [{$oViewConf->getHiddenSid()}]
-    <input type="hidden" name="cl" value="pt_ClearTmp">
+    <input type="hidden" name="cl" value="ptdevelopertoolscleartmp">
     <input type="hidden" name="fnc" value="pt_cleartmpfiles">
     <input class="pt-submit" type="Submit" value="[{oxmultilang ident="pt_CLEARCACHE_TMPDIR_DELETE_BUTTON"}]">
 </form>

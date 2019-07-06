@@ -15,3 +15,9 @@
 | OXID eShop        | PHP       |
 | ----------------- | ----------|
 | 6.1.2             | 7.1       |
+
+## 3. Installation
+
+Via Composer 
+
+    composer require protipps/pt_developertools

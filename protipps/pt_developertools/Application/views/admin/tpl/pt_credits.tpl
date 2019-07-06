@@ -7,9 +7,9 @@
         <div class="pt-developer-content">
             <div class="left-column">
                 <ul>
-                    <li><a href="[{$oViewConf->getSelfLink()}]cl=pt_LogViewer">[{oxmultilang ident='pt_LOGVIEWER_MENUITEM'}]</a></li>
-                    <li><a href="[{$oViewConf->getSelfLink()}]cl=pt_ClearTmp">[{oxmultilang ident='pt_CLEARCACHE_MENUITEM'}]</a></li>
-                    <li><a href="[{$oViewConf->getSelfLink()}]cl=pt_updateView">[{oxmultilang ident='pt_UPDATEVIEW_MENUITEM'}]</a></li>
+                    <li><a href="[{$oViewConf->getSelfLink()}]cl=ptdevelopertoolslogviewer">[{oxmultilang ident='pt_LOGVIEWER_MENUITEM'}]</a></li>
+                    <li><a href="[{$oViewConf->getSelfLink()}]cl=ptdevelopertoolscleartmp">[{oxmultilang ident='pt_CLEARCACHE_MENUITEM'}]</a></li>
+                    <li><a href="[{$oViewConf->getSelfLink()}]cl=ptdevelopertoolsupdateview">[{oxmultilang ident='pt_UPDATEVIEW_MENUITEM'}]</a></li>
                 </ul>
             </div>
             <div class="right-column">

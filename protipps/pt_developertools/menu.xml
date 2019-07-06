@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="pt_DEVELOPERTOOLS">
+            <SUBMENU id="pt_LOGVIEWER_MENUITEM" cl="ptdevelopertoolslogviewer"></SUBMENU>
+            <SUBMENU id="pt_CLEARCACHE_MENUITEM" cl="ptdevelopertoolscleartmp"></SUBMENU>
+            <SUBMENU id="pt_UPDATEVIEW_MENUITEM" cl="ptdevelopertoolsupdateview"></SUBMENU>
+            <SUBMENU id="pt_DEVELOPERTOOL_MENUITEM" cl="ptdevelopertoolscredits"></SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
