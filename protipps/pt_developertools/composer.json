@@ -31,6 +31,6 @@
         "psr-4": {
             "ProTipps\\PtDevelopertools\\": "../../../source/modules/protipps/pt_developertools"
         }
-    }
+    },
     "version": "2.0.0"
 }
