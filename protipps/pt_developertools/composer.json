@@ -2,21 +2,35 @@
     "name": "protipps/pt_developertools",
     "description": "Der perfekte Helfer fuer alle OXID eShop Entwickler. Haeufig benoetigte Aktionen mit nur einem Klick ausfuehren.",
     "type": "oxideshop-module",
-    "keywords": ["oxid", "modules", "eShop"],
+    "keywords": [
+		"oxid", 
+		"modules", 
+		"eShop"
+	],
     "homepage": "https://www.programmier-tipps.de/",
-    "version": "2.0.0",
-    "license": [
-        "MIT License"
-    ],
+    "license": "MIT License",
+	"authors": [
+		{
+		  "name": "Programmier Tipps",
+		  "email": "kontakt@programmier-tipps.de",
+		  "homepage": "https://www.programmier-tipps.de/",
+		  "role": "Developer"
+		}
+	  ],
+	"support": {
+		"email": "kontakt@programmier-tipps.de"
+	},
     "extra": {
         "oxideshop": {
             "target-directory": "protipps/pt_developertools"
         }
     },
-	"minimum-stability": "stable",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
     "autoload": {
         "psr-4": {
             "ProTipps\\PtDevelopertools\\": "../../../source/modules/protipps/pt_developertools"
         }
     }
+    "version": "2.0.0"
 }
