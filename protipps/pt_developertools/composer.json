@@ -13,6 +13,7 @@
             "target-directory": "protipps/pt_developertools"
         }
     },
+	"minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "ProTipps\\PtDevelopertools\\": "../../../source/modules/protipps/pt_developertools"
